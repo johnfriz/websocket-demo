@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$fh.ready(function() {
   $fh.init({}, function() {
     var url = ($fh.app_props.mode === "dev" ? $fh.cloud_props.hosts.debugCloudUrl : $fh.cloud_props.hosts.releaseCloudUrl);
     document.getElementById('serverurl').innerHTML = 'Server URL: ' + url;
